@@ -35,7 +35,7 @@ function Hero() {
                 </motion.div>
                 <button className='font-mono cursor-pointer border border-[#8b5cf6]/30 bg-[#0d1117] hover:border-[#8b5cf6] p-4 rounded-lg transition-all duration-300 group w-full sm:w-auto'>
                 <motion.a
-                    href="/cv.pdf"
+                    href="/frontend-developer.pdf"
                     download="Atule_Ojonugwa_CV.pdf"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
