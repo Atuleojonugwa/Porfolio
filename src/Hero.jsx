@@ -33,24 +33,23 @@ function Hero() {
                         I craft clean, responsive web experiences that work beautifully across all devices. Focused on writing efficient code and building projects that make an impact.
                     </p>
                 </motion.div>
-                <button className='font-mono cursor-pointer border border-[#8b5cf6]/30 bg-[#0d1117] hover:border-[#8b5cf6] p-4 rounded-lg transition-all duration-300 group w-full sm:w-auto'>
                 <motion.a
                     href="/frontend-developer.pdf"
                     download="Atule_Ojonugwa_CV.pdf"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: "easeOut", delay: 0.5 }}
-                    className="w-full flex justify-center" 
-                >   
-                    
+                    className="w-full sm:w-auto"
+                >
+                    <button className='font-mono cursor-pointer border border-[#8b5cf6]/30 bg-[#0d1117] hover:border-[#8b5cf6] p-4 rounded-lg transition-all duration-300 group w-full sm:w-auto'>
                         <p className='flex items-center justify-center gap-3 text-sm md:text-base'>
                             <span className='text-[#8b5cf6] font-bold'>$</span>
                             <span className="text-[#f8fafc] group-hover:text-[#8b5cf6] transition-colors">
                                 npm install resume@latest
                             </span>
                         </p>
+                    </button>
                 </motion.a>
-                </button>
             </motion.section>
         </div>
     )
